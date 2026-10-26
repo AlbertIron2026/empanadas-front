@@ -1,6 +1,6 @@
 // URL del backend. Cambia SOLO la de Render (producción) cuando la tengas.
 const API_LOCAL = "http://localhost:8080/api";
-const API_PRODUCCION = "https://TU-APP.onrender.com/api";
+const API_PRODUCCION = "https://empanadas-stock.onrender.com/api"; //actualizada despues de crear servicio en Render
 const enLocal = ["localhost", "127.0.0.1"].includes(location.hostname);
 const API = enLocal ? API_LOCAL : API_PRODUCCION;
 
